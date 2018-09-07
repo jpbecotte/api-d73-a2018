@@ -1,0 +1,15 @@
+{
+  "name": "d73-mock-api",
+  "version": "1.0.0",
+  "description": "A mock API for 420-D73",
+  "main": "index.js",
+  "scripts": {
+    "serve": "json-server ./data/db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean-Pierre Bécotte",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}
